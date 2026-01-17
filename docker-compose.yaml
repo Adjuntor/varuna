@@ -1,0 +1,8 @@
+services:
+  varuna:
+    image: ghcr.io/adjuntor/varuna/varuna:latest
+    container_name: varuna
+    network_mode: bridge
+    restart: unless-stopped
+    volumes:
+        - <volume-name>:/usr/src/app/config
