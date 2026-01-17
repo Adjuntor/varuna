@@ -1,6 +1,6 @@
 # How to run
 ```
-git clone https://github.com/Adjuntor/shiva.git
+git clone https://github.com/Adjuntor/varuna.git
 cd shiva
 pip install --no-cache-dir -r requirements.txt
 ```
@@ -13,12 +13,12 @@ python3 main.py
 # Docker Image
 Requires docker to be installed.
 ```
-git clone https://github.com/Adjuntor/shiva.git
+git clone https://github.com/Adjuntor/varuna.git
 cd varuna
 ```
 Edit with the correct values the config file.
 ```
-docker build -t shiva .
+docker build -t varuna .
 docker run -d --name=varuna -v <volume-name>:/usr/src/app/config --restart=always varuna
 ```
 
