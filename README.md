@@ -1,7 +1,7 @@
 # How to run
 ```
 git clone https://github.com/Adjuntor/varuna.git
-cd shiva
+cd varuna
 pip install --no-cache-dir -r requirements.txt
 ```
 Edit with the correct values the config file.
